@@ -1,0 +1,109 @@
+8 oct 2026
+
+
+function & methods:
+both are same just functions called independently and methods needs object to call
+
+String methods:
+partition():given string is separated from its attached word
+
+ex-"welcome to imcc"
+partition("come")
+o/p:'wel',' come',' to imcc'
+split():
+
+
+list in python:
+    #empty list
+    my_list=[]
+    print(my_list)   o/p=[]
+
+
+    # with items
+
+    fruits=['apple','banana','grape']
+
+
+    list starts from index 0 and reverse it starts with -1 therefor last element starts from -1 also
+
+list methods:
+    append():add items at the end
+    insert():insert item at specific position
+             takes two para index and value
+
+
+    remove():remove the specific item identifying the value
+    pop():removes by default last value if parameter not  passed
+
+    task:
+    1 create list of 10 numbers print sum of last 4 elements of the list
+    2 find out the difference bet maximum and minimum element of the list
+    3 insert a item or insert a number in a list at 6th position this number must be one third of number stored at 4th position  
+
+
+    len():
+    sum():
+    sorted():bydefault aschending
+    sorted(number,reverse=True):descending
+
+
+    block:
+
+    if True:
+       print("inside block")
+    print("outside block")
+
+
+    types of conditional statement:
+    if:executes if True
+    else:executes if False
+    elif:to check multiple conditions
+
+
+    #while loop
+    #for loop
+
+    pass break and continue used to control the loop execution
+     pass is just placeholder used for pausing the code it do nothing
+
+    continue:
+    skips the current iteration then continue
+
+    break:
+    exits loop as the condition satisfies
+
+#  loop else
+      for i in range(33)
+         print(i)
+      else:
+      print("loop finished without break")
+
+      loop else used for ensurity that task is done
+
+
+    dictionary :key value pair
+
+    traversing using for loop
+
+    for i ,j in dict.items():
+
+    students={
+        101:{"name":"Aditi","scores":[78,98,45]},
+        102:{"name":"shreya","scores":[86,92,67]},
+        103:{"name":"sakshi","scores":[67,100,100]},
+        104:{"name":"priya","scores":[57,82,74]},
+        105:{"name":"sneha","scores":[79,87,70]}
+    }
+     
+
+     create dictionary for liabrary
+
+     assignment:
+     1.make meaningful words from your name
+     2. replace all the vowels in your name with z
+
+
+
+                 
+
+
